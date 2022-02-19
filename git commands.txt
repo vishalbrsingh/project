@@ -17,4 +17,6 @@
 12. now the file has been commited to your local repo.
 	to add it to the development branch, do 
 	git push origin development
+13. Everyday before starting with your work, update your project folder by git pull
+	git pull origin development		// all the project related files will be merged into development folder.
 	
