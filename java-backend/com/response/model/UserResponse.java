@@ -2,10 +2,13 @@ package com.response.model;
 
 import java.util.Arrays;
 
-//@Document(collection="userQResponse")
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document(collection="userQResponse")
 public class UserResponse {
 	
-//	@Id
+	@Id
 	private int userId;
 	private Option[] responses;
 	

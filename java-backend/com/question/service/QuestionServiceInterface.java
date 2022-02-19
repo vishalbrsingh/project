@@ -7,5 +7,5 @@ import com.response.model.UserResponse;
 
 public interface QuestionServiceInterface {
 	List<Question> showQuestions();
-	boolean addResponse(UserResponse responses );
+	boolean addQuestions(Question question);
 }

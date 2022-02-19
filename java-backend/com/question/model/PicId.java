@@ -1,5 +1,8 @@
 package com.question.model;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class PicId {
 	private int id;
 

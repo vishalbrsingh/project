@@ -2,12 +2,15 @@ package com.question.model;
 
 import java.util.Arrays;
 
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
 import com.response.model.Option;
 
-//@Document(collection="Questionnaires")
+@Document(collection="Questionnaires")
 public class Question {
 	
-//	@Id
+	@Id
 	private int questionId;
 	private String question;
 	private PicId picId;

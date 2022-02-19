@@ -1,6 +1,8 @@
 package com.response.model;
 
-//@Component
+import org.springframework.stereotype.Component;
+
+@Component
 public class Option {
 	
 	private int value;
