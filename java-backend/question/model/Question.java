@@ -2,6 +2,8 @@ package com.question.model;
 
 import java.util.Arrays;
 
+import com.response.model.Option;
+
 //@Document(collection="Questionnaires")
 public class Question {
 	
@@ -9,7 +11,7 @@ public class Question {
 	private int questionId;
 	private String question;
 	private PicId picId;
-	private int[] option;
+	private Option[] options;
 	private String answer;
 	
 	public Question() {
@@ -17,12 +19,12 @@ public class Question {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Question(int questionId, String question, PicId picId, int[] option, String answer) {
+	public Question(int questionId, String question, PicId picId, Option[] options, String answer) {
 		super();
 		this.questionId = questionId;
 		this.question = question;
 		this.picId = picId;
-		this.option = option;
+		this.options = options;
 		this.answer = answer;
 	}
 
@@ -50,12 +52,12 @@ public class Question {
 		this.picId = picId;
 	}
 
-	public int[] getOption() {
-		return option;
+	public Option[] getOptions() {
+		return options;
 	}
 
-	public void setOption(int[] option) {
-		this.option = option;
+	public void setOptions(Option[] options) {
+		this.options = options;
 	}
 
 	public String getAnswer() {
@@ -68,11 +70,10 @@ public class Question {
 
 	@Override
 	public String toString() {
-		return "Question [questionId=" + questionId + ", question=" + question + ", picId=" + picId.toString() + ", option="
-				+ Arrays.toString(option) + ", answer=" + answer + "]";
+		return "Question [questionId=" + questionId + ", question=" + question + ", picId=" + picId + ", options="
+				+ Arrays.toString(options) + ", answer=" + answer + "]";
 	}
 
-	
 	
 	
 }
