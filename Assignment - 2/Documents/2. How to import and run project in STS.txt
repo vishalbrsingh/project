@@ -1,0 +1,19 @@
+******************************************************************
+How to import project in STS/Eclipse 
+******************************************************************
+
+1. Create an Empty Folder (This will be the workspace), 
+   Open STS/Eclipse and Select the Workspace and Enter.
+2. After opening, Click on 'File'
+3. Select 'Open Projects from File System'
+4. Click on 'Directory' and Select the api folder
+5. Click on 'Finish'
+6. Now STS/Eclipse will download the dependencies from the internet and 
+   it will take some time (Download status will be shown in bottom right corner).
+
+******************************************************************
+How to run the Server
+******************************************************************
+
+1. Right click on the project from left pane > run as > SpringBoot App
+2. Now test the api using browser or Postman tool.

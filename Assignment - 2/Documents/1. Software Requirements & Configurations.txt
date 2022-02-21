@@ -1,0 +1,112 @@
+Software Requirements ->
+************************
+
+_____________________________________________________________________________________________________________________
+1. Java 8
+**********
+	
+	link to download - https://www.oracle.com/java/technologies/downloads/
+	
+	After installation -
+ 	Steps to set environment variable -
+	 1. go to start and type Environment Variables open it.
+	 2. On the user variable section click on path
+         3. click Edit -> New -> C:\Program Files\Java\jdk1.8.0_311\bin (default installation directory bin folder)
+	 4. Click OK.
+	
+	Check if it is set up correctly-
+	 1. Open command prompt by type (cmd and hit enter)
+	 2. type javac -version
+            e.g,
+            C:\Users\RISHU>javac -version
+	    javac 1.8.0_311
+	 3. type java -version
+            e.g,
+            C:\Users\RISHU>java -version
+             java version "1.8.0_311"
+             Java(TM) SE Runtime Environment (build 1.8.0_311-b11)
+
+_______________________________________________________________________________________________________________________
+2. IDE - Spring Tool Suite 4
+*****************************
+	
+	link to download - https://spring.io/tools
+
+
+_____________________________________________________________________________________________________________________
+3. Node JS
+************
+	
+	link to download - https://nodejs.org/en/
+
+	After installation -
+	Steps to set environment variable -
+	 1. go to start and type Environment Variables open it.
+	 2. On the user variable section click on path
+         3. click Edit -> New -> C:\Program Files\nodejs\node_modules\npm\bin (default installation directory bin folder)
+	 4. Click OK.
+
+	
+	Check if it is set up correctly-
+	 1. Open command prompt by type (cmd and hit enter)
+	 2. type node --version
+            e.g,
+            C:\Users\RISHU>node --version
+	    v16.13.1
+	 3. type npm --version
+            e.g,
+            C:\Users\RISHU>npm --version
+	    8.1.2
+
+_____________________________________________________________________________________________________________________
+4. MongoDB 
+************
+	
+	link to download - https://www.mongodb.com/try/download/community
+	
+	After installation -
+	Steps to set environment variable -
+	 1. go to start and type Environment Variables open it.
+	 2. On the user variable section click on path
+         3. click Edit -> New -> C:\Program Files\MongoDB\Server\5.0\bin (default installation directory bin folder)
+	 4. Click OK.
+
+	Check if it is set up correctly-
+	 1. Open command prompt by type (cmd and hit enter)
+	 2. type mongo -version
+            
+	    e.g,
+            C:\Users\RISHU>mongo -version
+		MongoDB shell version v5.0.6
+		Build Info: {
+   		 "version": "5.0.6",
+   		 "gitVersion": "212a8dbb47f07427dae194a9c75baec1d81d9259",
+   		 "modules": [],
+   		 "allocator": "tcmalloc",
+   		 "environment": {
+   		     "distmod": "windows",
+        		"distarch": "x86_64",
+       		 "target_arch": "x86_64"
+   		 }
+		}
+	  
+	  3. type mongod -version
+	     
+	     e.g,
+	     C:\Users\RISHU>mongod -version
+		db version v5.0.6
+		Build Info: {
+    		"version": "5.0.6",
+    		"gitVersion": "212a8dbb47f07427dae194a9c75baec1d81d9259",
+   		 "modules": [],
+    		"allocator": "tcmalloc",
+    		"environment": {
+        		"distmod": "windows",
+        		"distarch": "x86_64",
+        		"target_arch": "x86_64"
+    		 }
+		}
+_____________________________________________________________________________________________________________________
+	 
+	
+           
